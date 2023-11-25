@@ -1,0 +1,10 @@
+//@theme "/home/samtitar/.local/share/rofi/themes/spotlight-dark.rasi"
+@theme "/home/samtitar/.local/share/rofi/themes/rounded-nord-dark.rasi"
+
+* {
+    font: "Roboto 24";
+}
+
+window {
+    width: 30%;
+}
