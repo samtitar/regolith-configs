@@ -102,8 +102,8 @@ shadow-ignore-shaped = false;
 #################################
 
 inactive-opacity = 0.85;
-active-opacity = 0.97;
-frame-opacity = 0.97;
+active-opacity = 0.96;
+frame-opacity = 0.96;
 inactive-opacity-override = false;
 
 # Dim inactive windows. (0.0 - 1.0)
@@ -229,7 +229,7 @@ opacity-rule = [
   "100:_NET_WM_STATE@[2]:32a = '_NET_WM_STATE_FULLSCREEN'",
   "100:_NET_WM_STATE@[3]:32a = '_NET_WM_STATE_FULLSCREEN'",
   "100:_NET_WM_STATE@[4]:32a = '_NET_WM_STATE_FULLSCREEN'",
-  "100:class_g = 'firefox'",
+  "99:class_g = 'firefox'",
   "75:window_type = 'dock'"
 ];
 

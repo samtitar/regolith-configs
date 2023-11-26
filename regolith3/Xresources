@@ -14,5 +14,6 @@ wm.bar.workspace.inactive.background.color: #3B4252
 wm.bar.workspace.inactive.border.color: #272C36
 wm.bar.workspace.inactive.text.color: #88C0D0
 
-Xft.dpi: 160 
+Xft.dpi: 160
+wm.program.lock: /usr/local/bin/betterlockscreen -l
 wm.program.launcher.app: rofi -show drun -show-icons -modi drun
