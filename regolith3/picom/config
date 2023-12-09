@@ -101,7 +101,7 @@ shadow-ignore-shaped = false;
 #
 #################################
 
-inactive-opacity = 0.85;
+inactive-opacity = 0.9;
 active-opacity = 0.96;
 frame-opacity = 0.96;
 inactive-opacity-override = false;
@@ -220,8 +220,8 @@ wintypes:
     }
 };
 
-corner-radius = 25;
-round-borders = 8;
+corner-radius = 15;
+round-borders = 1;
 
 opacity-rule = [
   "100:_NET_WM_STATE@[0]:32a = '_NET_WM_STATE_FULLSCREEN'",
@@ -229,7 +229,7 @@ opacity-rule = [
   "100:_NET_WM_STATE@[2]:32a = '_NET_WM_STATE_FULLSCREEN'",
   "100:_NET_WM_STATE@[3]:32a = '_NET_WM_STATE_FULLSCREEN'",
   "100:_NET_WM_STATE@[4]:32a = '_NET_WM_STATE_FULLSCREEN'",
-  "99:class_g = 'firefox'",
+  "98:class_g = 'firefox'",
   "75:window_type = 'dock'"
 ];
 

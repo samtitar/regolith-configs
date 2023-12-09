@@ -2,18 +2,19 @@
 regolith.look.path: /usr/share/regolith-look/lascaille
 
 wm.gaps.smart: false
-wm.gaps.inner.size: 15
+wm.gaps.inner.size: 10
 wm.window.border.size: 0
 
 wm.bar.background.color: #272C36
-wm.bar.workspace.focused.background.color: #88C0D0
-wm.bar.workspace.focused.border.color: #88C0D0
-wm.bar.workspace.focused.text.color: #3B4252
+wm.bar.workspace.focused.background.color: #EBCB8B
+wm.bar.workspace.focused.border.color: #FFCC66
+wm.bar.workspace.focused.text.color: #272C36
 
 wm.bar.workspace.inactive.background.color: #3B4252
 wm.bar.workspace.inactive.border.color: #272C36
-wm.bar.workspace.inactive.text.color: #88C0D0
+wm.bar.workspace.inactive.text.color: #EBCB8B
 
 Xft.dpi: 160
-wm.program.lock: /usr/local/bin/betterlockscreen -l
 wm.program.launcher.app: rofi -show drun -show-icons -modi drun
+wm.program.settings: rofi -show calc -no-show-match -no-sort
+wm.program.wifi: bash /home/samtitar/Desktop/rofi-wifi-menu/rofi-wifi-menu.sh
