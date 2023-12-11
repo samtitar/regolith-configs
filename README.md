@@ -14,8 +14,3 @@ To remove borders around firefox open the browser and head to about:config. Sear
 ### Rofi Theme
 Select from https://github.com/newmanls/rofi-themes-collection/tree/master
 Customize in rofi/config.rasi
-
-### Betterlockscreen (super + esc)
-Install i3lock-color: https://github.com/Raymo111/i3lock-color
-Install betterlockscreen https://github.com/betterlockscreen/betterlockscreen from installtation script
-
